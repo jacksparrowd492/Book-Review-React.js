@@ -1,0 +1,32 @@
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-image-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #555;
+  }
+  
+  .user-info p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
